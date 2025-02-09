@@ -18,8 +18,8 @@ const start = async () => {
     return { name }
   })
 
-  server.listen({ port: 3333 }, () => {
-    console.log('Server running...')
+  server.listen({ port: 3333, host: '0.0.0.0' }, () => {
+    console.log('Server running...🚀')
   })
 }
 
